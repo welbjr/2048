@@ -1,0 +1,126 @@
+* {
+  font-family: monospace;
+}
+
+body {
+  display: contents;
+}
+
+.App__Dark {
+  background-color: rgb(49, 49, 49);
+  font-size: 20px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.App__Light {
+  background-color: rgb(245, 245, 245);
+  font-size: 20px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.Header {
+  display: flex;
+  padding: 15px 50px 0 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Score__Dark {
+  text-align: center;
+  color: rgb(231, 231, 231);
+  font-weight: bold;
+}
+
+.Score__Light {
+  text-align: center;
+  color: rgb(49, 49, 49);
+  font-weight: bold;
+}
+
+.Board {
+  margin: auto;
+  margin-top: 120px;
+  display: block;
+  width: fit-content;
+  height: fit-content;
+}
+
+.Row {
+  display: flex;
+  width: fit-content;
+}
+
+.Number {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10%;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  margin: 3px;
+  height: 120px;
+  width: 120px;
+}
+
+.ToggleTheme {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.ToggleTheme__Icon__Dark {
+  color: rgb(231, 231, 231);
+  height: 30px;
+  width: 30px;
+}
+
+.ToggleTheme__Icon__Light {
+  color: rgb(49, 49, 49);
+  height: 30px;
+  width: 30px;
+}
+
+table {
+  border: 1px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  text-align: center;
+}
+
+th,
+td {
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+
+.Row__Dark {
+  background: rgb(31, 31, 31);
+  color: #fff;
+}
+
+.Row__Light {
+  background: #fff;
+}
+
+.Table__Score__Light {
+  width: 100%;
+  color: rgb(31, 31, 31);
+  text-align: center;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.Table__Score__Dark {
+  width: 100%;
+  color: rgb(231, 231, 231);
+  text-align: center;
+  margin-top: 50px;
+  cursor: pointer;
+}
